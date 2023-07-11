@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="17" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-11T10:55:33 IST" name="SwagLabs" finished-at="2023-07-11T10:56:27 IST" duration-ms="53924">
+    <groups>
+    </groups>
+    <test started-at="2023-07-11T10:55:33 IST" name="Login" finished-at="2023-07-11T10:56:02 IST" duration-ms="28804">
+      <class name="tests.SwagLabs.LoginTests">
+        <test-method is-config="true" signature="setupBeforeTest()[pri:0, instance:tests.SwagLabs.LoginTests@39008c9f]" started-at="2023-07-11T10:55:33 IST" name="setupBeforeTest" finished-at="2023-07-11T10:55:41 IST" duration-ms="7865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeTest -->
+        <test-method is-config="true" signature="beforeEach()[pri:0, instance:tests.SwagLabs.LoginTests@39008c9f]" started-at="2023-07-11T10:55:41 IST" name="beforeEach" finished-at="2023-07-11T10:55:42 IST" duration-ms="1023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEach -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:tests.SwagLabs.LoginTests@39008c9f]" started-at="2023-07-11T10:55:42 IST" name="login" description="Verify user should Log in Successfully Clicking button" data-provider="loginCredentials" finished-at="2023-07-11T10:55:43 IST" duration-ms="858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="beforeEach()[pri:0, instance:tests.SwagLabs.LoginTests@39008c9f]" started-at="2023-07-11T10:55:43 IST" name="beforeEach" finished-at="2023-07-11T10:55:43 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEach -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:tests.SwagLabs.LoginTests@39008c9f]" started-at="2023-07-11T10:55:43 IST" name="login" description="Verify user should Log in Successfully Clicking button" data-provider="loginCredentials" finished-at="2023-07-11T10:55:44 IST" duration-ms="580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="beforeEach()[pri:0, instance:tests.SwagLabs.LoginTests@39008c9f]" started-at="2023-07-11T10:55:44 IST" name="beforeEach" finished-at="2023-07-11T10:55:44 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEach -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:tests.SwagLabs.LoginTests@39008c9f]" started-at="2023-07-11T10:55:44 IST" name="login" description="Verify user should Log in Successfully Clicking button" data-provider="loginCredentials" finished-at="2023-07-11T10:55:45 IST" duration-ms="562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="beforeEach()[pri:0, instance:tests.SwagLabs.LoginTests@39008c9f]" started-at="2023-07-11T10:55:45 IST" name="beforeEach" finished-at="2023-07-11T10:55:45 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEach -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:tests.SwagLabs.LoginTests@39008c9f]" started-at="2023-07-11T10:55:45 IST" name="login" description="Verify user should Log in Successfully Clicking button" data-provider="loginCredentials" finished-at="2023-07-11T10:55:50 IST" duration-ms="5595" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="beforeEach()[pri:0, instance:tests.SwagLabs.LoginTests@39008c9f]" started-at="2023-07-11T10:55:50 IST" name="beforeEach" finished-at="2023-07-11T10:55:51 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEach -->
+        <test-method signature="loginEnter(java.lang.String,java.lang.String)[pri:0, instance:tests.SwagLabs.LoginTests@39008c9f]" started-at="2023-07-11T10:55:51 IST" name="loginEnter" description="Verify user should Log in Successfully pressing Enter" data-provider="loginCredentials" finished-at="2023-07-11T10:55:51 IST" duration-ms="543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginEnter -->
+        <test-method is-config="true" signature="beforeEach()[pri:0, instance:tests.SwagLabs.LoginTests@39008c9f]" started-at="2023-07-11T10:55:51 IST" name="beforeEach" finished-at="2023-07-11T10:55:51 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEach -->
+        <test-method signature="loginEnter(java.lang.String,java.lang.String)[pri:0, instance:tests.SwagLabs.LoginTests@39008c9f]" started-at="2023-07-11T10:55:51 IST" name="loginEnter" description="Verify user should Log in Successfully pressing Enter" data-provider="loginCredentials" finished-at="2023-07-11T10:55:52 IST" duration-ms="443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginEnter -->
+        <test-method is-config="true" signature="beforeEach()[pri:0, instance:tests.SwagLabs.LoginTests@39008c9f]" started-at="2023-07-11T10:55:52 IST" name="beforeEach" finished-at="2023-07-11T10:55:52 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEach -->
+        <test-method signature="loginEnter(java.lang.String,java.lang.String)[pri:0, instance:tests.SwagLabs.LoginTests@39008c9f]" started-at="2023-07-11T10:55:52 IST" name="loginEnter" description="Verify user should Log in Successfully pressing Enter" data-provider="loginCredentials" finished-at="2023-07-11T10:55:52 IST" duration-ms="593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginEnter -->
+        <test-method is-config="true" signature="beforeEach()[pri:0, instance:tests.SwagLabs.LoginTests@39008c9f]" started-at="2023-07-11T10:55:52 IST" name="beforeEach" finished-at="2023-07-11T10:55:53 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEach -->
+        <test-method signature="loginEnter(java.lang.String,java.lang.String)[pri:0, instance:tests.SwagLabs.LoginTests@39008c9f]" started-at="2023-07-11T10:55:53 IST" name="loginEnter" description="Verify user should Log in Successfully pressing Enter" data-provider="loginCredentials" finished-at="2023-07-11T10:55:58 IST" duration-ms="5510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginEnter -->
+        <test-method is-config="true" signature="beforeEach()[pri:0, instance:tests.SwagLabs.LoginTests@39008c9f]" started-at="2023-07-11T10:55:58 IST" name="beforeEach" finished-at="2023-07-11T10:55:58 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEach -->
+        <test-method signature="loginInvalidEmail()[pri:0, instance:tests.SwagLabs.LoginTests@39008c9f]" started-at="2023-07-11T10:55:58 IST" name="loginInvalidEmail" description="Verify user should not Log in with invalid email" finished-at="2023-07-11T10:55:59 IST" duration-ms="436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidEmail -->
+        <test-method is-config="true" signature="beforeEach()[pri:0, instance:tests.SwagLabs.LoginTests@39008c9f]" started-at="2023-07-11T10:55:59 IST" name="beforeEach" finished-at="2023-07-11T10:55:59 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEach -->
+        <test-method signature="loginInvalidPassword()[pri:0, instance:tests.SwagLabs.LoginTests@39008c9f]" started-at="2023-07-11T10:55:59 IST" name="loginInvalidPassword" description="Verify user should not Log in with invalid password" finished-at="2023-07-11T10:56:00 IST" duration-ms="891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidPassword -->
+        <test-method is-config="true" signature="beforeEach()[pri:0, instance:tests.SwagLabs.LoginTests@39008c9f]" started-at="2023-07-11T10:56:00 IST" name="beforeEach" finished-at="2023-07-11T10:56:00 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEach -->
+        <test-method signature="logout()[pri:5, instance:tests.SwagLabs.LoginTests@39008c9f]" started-at="2023-07-11T10:56:00 IST" name="logout" description="Verify user should Log out Successfully" finished-at="2023-07-11T10:56:01 IST" duration-ms="1326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="setupAfterSuite()[pri:0, instance:tests.SwagLabs.LoginTests@39008c9f]" started-at="2023-07-11T10:56:01 IST" name="setupAfterSuite" finished-at="2023-07-11T10:56:02 IST" duration-ms="513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAfterSuite -->
+      </class> <!-- tests.SwagLabs.LoginTests -->
+    </test> <!-- Login -->
+    <test started-at="2023-07-11T10:56:02 IST" name="HomePage" finished-at="2023-07-11T10:56:11 IST" duration-ms="9315">
+      <class name="tests.SwagLabs.HomePageTests">
+        <test-method is-config="true" signature="setupBeforeTest()[pri:0, instance:tests.SwagLabs.HomePageTests@2015b2cd]" started-at="2023-07-11T10:56:02 IST" name="setupBeforeTest" finished-at="2023-07-11T10:56:03 IST" duration-ms="1380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeTest -->
+        <test-method is-config="true" signature="beforeEach()[pri:0, instance:tests.SwagLabs.HomePageTests@2015b2cd]" started-at="2023-07-11T10:56:03 IST" name="beforeEach" finished-at="2023-07-11T10:56:05 IST" duration-ms="1675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEach -->
+        <test-method signature="addToCart()[pri:0, instance:tests.SwagLabs.HomePageTests@2015b2cd]" started-at="2023-07-11T10:56:05 IST" name="addToCart" description="Verify product should be added to cart successfully" finished-at="2023-07-11T10:56:06 IST" duration-ms="1411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="beforeEach()[pri:0, instance:tests.SwagLabs.HomePageTests@2015b2cd]" started-at="2023-07-11T10:56:06 IST" name="beforeEach" finished-at="2023-07-11T10:56:07 IST" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEach -->
+        <test-method signature="applyFilter()[pri:0, instance:tests.SwagLabs.HomePageTests@2015b2cd]" started-at="2023-07-11T10:56:07 IST" name="applyFilter" description="Verify Filter should be applied successfully" finished-at="2023-07-11T10:56:07 IST" duration-ms="415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyFilter -->
+        <test-method is-config="true" signature="beforeEach()[pri:0, instance:tests.SwagLabs.HomePageTests@2015b2cd]" started-at="2023-07-11T10:56:07 IST" name="beforeEach" finished-at="2023-07-11T10:56:08 IST" duration-ms="576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEach -->
+        <test-method signature="goToProductPage()[pri:0, instance:tests.SwagLabs.HomePageTests@2015b2cd]" started-at="2023-07-11T10:56:08 IST" name="goToProductPage" description="Verify product page should be opened successfully" finished-at="2023-07-11T10:56:09 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToProductPage -->
+        <test-method is-config="true" signature="beforeEach()[pri:0, instance:tests.SwagLabs.HomePageTests@2015b2cd]" started-at="2023-07-11T10:56:09 IST" name="beforeEach" finished-at="2023-07-11T10:56:09 IST" duration-ms="601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEach -->
+        <test-method signature="removeFromCart()[pri:0, instance:tests.SwagLabs.HomePageTests@2015b2cd]" started-at="2023-07-11T10:56:09 IST" name="removeFromCart" description="Verify product should be removed from cart successfully" finished-at="2023-07-11T10:56:10 IST" duration-ms="1076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeFromCart -->
+        <test-method is-config="true" signature="setupAfterSuite()[pri:0, instance:tests.SwagLabs.HomePageTests@2015b2cd]" started-at="2023-07-11T10:56:10 IST" name="setupAfterSuite" finished-at="2023-07-11T10:56:11 IST" duration-ms="991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAfterSuite -->
+      </class> <!-- tests.SwagLabs.HomePageTests -->
+    </test> <!-- HomePage -->
+    <test started-at="2023-07-11T10:56:11 IST" name="ProductPage" finished-at="2023-07-11T10:56:18 IST" duration-ms="6932">
+      <class name="tests.SwagLabs.ProductPageTests">
+        <test-method is-config="true" signature="setupBeforeTest()[pri:0, instance:tests.SwagLabs.ProductPageTests@73a19967]" started-at="2023-07-11T10:56:11 IST" name="setupBeforeTest" finished-at="2023-07-11T10:56:13 IST" duration-ms="1849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeTest -->
+        <test-method is-config="true" signature="beforeEach()[pri:0, instance:tests.SwagLabs.ProductPageTests@73a19967]" started-at="2023-07-11T10:56:13 IST" name="beforeEach" finished-at="2023-07-11T10:56:16 IST" duration-ms="2486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEach -->
+        <test-method signature="addToCartProductPage()[pri:0, instance:tests.SwagLabs.ProductPageTests@73a19967]" started-at="2023-07-11T10:56:16 IST" name="addToCartProductPage" description="Verify add to cart should work on product page successfully" finished-at="2023-07-11T10:56:16 IST" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartProductPage -->
+        <test-method is-config="true" signature="beforeEach()[pri:0, instance:tests.SwagLabs.ProductPageTests@73a19967]" started-at="2023-07-11T10:56:16 IST" name="beforeEach" finished-at="2023-07-11T10:56:17 IST" duration-ms="846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEach -->
+        <test-method signature="removeFromCartProductPage()[pri:0, instance:tests.SwagLabs.ProductPageTests@73a19967]" started-at="2023-07-11T10:56:17 IST" name="removeFromCartProductPage" description="Verify remove from cart should work on product page successfully" finished-at="2023-07-11T10:56:18 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeFromCartProductPage -->
+        <test-method is-config="true" signature="setupAfterSuite()[pri:0, instance:tests.SwagLabs.ProductPageTests@73a19967]" started-at="2023-07-11T10:56:18 IST" name="setupAfterSuite" finished-at="2023-07-11T10:56:18 IST" duration-ms="475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAfterSuite -->
+      </class> <!-- tests.SwagLabs.ProductPageTests -->
+    </test> <!-- ProductPage -->
+    <test started-at="2023-07-11T10:56:18 IST" name="XpathTests" finished-at="2023-07-11T10:56:27 IST" duration-ms="8733">
+      <class name="tests.SwagLabs.XpathTests">
+        <test-method is-config="true" signature="setupBeforeTest()[pri:0, instance:tests.SwagLabs.XpathTests@451882b2]" started-at="2023-07-11T10:56:18 IST" name="setupBeforeTest" finished-at="2023-07-11T10:56:20 IST" duration-ms="1593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeTest -->
+        <test-method is-config="true" signature="beforeEach()[pri:0, instance:tests.SwagLabs.XpathTests@451882b2]" started-at="2023-07-11T10:56:20 IST" name="beforeEach" finished-at="2023-07-11T10:56:26 IST" duration-ms="6599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEach -->
+        <test-method signature="useDifXpath()[pri:0, instance:tests.SwagLabs.XpathTests@451882b2]" started-at="2023-07-11T10:56:26 IST" name="useDifXpath" description="Use different xpath" finished-at="2023-07-11T10:56:26 IST" duration-ms="40" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h1[contains(text(),"User's Application Form")]"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e02664dbbc8a4628161e7816ec40265, findElement {using=xpath, value=//h1[contains(text(),"User's Application Form")]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\UMESHR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:5635}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:5635/devtool..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e02664dbbc8a4628161e7816ec40265]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[contains(text(),"User's Application Form")]"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e02664dbbc8a4628161e7816ec40265, findElement {using=xpath, value=//h1[contains(text(),"User's Application Form")]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\UMESHR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:5635}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:5635/devtool..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e02664dbbc8a4628161e7816ec40265
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+at tests.SwagLabs.XpathTests.getByXpath(XpathTests.java:58)
+at tests.SwagLabs.XpathTests.useDifXpath(XpathTests.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useDifXpath -->
+        <test-method is-config="true" signature="setupAfterSuite()[pri:0, instance:tests.SwagLabs.XpathTests@451882b2]" started-at="2023-07-11T10:56:26 IST" name="setupAfterSuite" finished-at="2023-07-11T10:56:27 IST" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAfterSuite -->
+      </class> <!-- tests.SwagLabs.XpathTests -->
+    </test> <!-- XpathTests -->
+  </suite> <!-- SwagLabs -->
+</testng-results>
